@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 // Iniciando o DB
-mongoose.connect("mongodb://localhost:27017/nodeapi", {
+mongoose.connect("mongodb://localhost:27017/productapi", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
